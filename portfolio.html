@@ -18,12 +18,14 @@
 
     <!--Шапка страницы-->
     <header class="portfolio">
+        <div class="container main-nav">
+
         <a class="portfolio-logo link" 
         href="./index.html">Web<span class="portfolio-studio">Studio</span></a>
         <nav  class="portfolio-nav">
             <ul class="portfolio-list list">
                 <li class="portfolio-item"><a href="./index.html" class="portfolio-link link">Студия</a>
-    
+
                 </li>
                 <li  class="portfolio-item"><a href="./index.html" class="portfolio-link link">Портфолио</a>
                 </li>
@@ -33,7 +35,7 @@
         </nav>
 
 
-        <ul  class="portfolio-list list">
+        <ul  class="auth-portfolio-list list">
             <li class="portfolio-item">
                 <a class="portfolio-mail link"
                  href="mailto:info@devstudio.com" >info@devstudio.com</a>
@@ -41,25 +43,28 @@
             <li class="portfolio-item">
                 <a  class="portfolio-tel link" href="tel:+380961111111"></a>+38 096 111 11 11</li>
         </ul>
+        </div>
     </header>
 
     <!--Основной контент-->
     <main>
         <section class="portfolio-hero">
             <h1 class="visually-hidden">Наши роботы</h1>
+            <div class="container buttons-container">
             <ul  class="portfolio-hero-list list">
 
-                <li class="portfolio-hero-item"> <button class="button-portfolio" type="button">Все</button></li>
-                <li class="portfolio-hero-item"><button class="button-portfolio" type="button">Веб-сайты</button></li>
-                <li class="portfolio-hero-item"><button class="button-portfolio" type="button">Приложения</button>
+                <li class="portfolio-hero-item"> <button class="btn button-portfolio" type="button">Все</button></li>
+                <li class="portfolio-hero-item"><button class="btn button-portfolio" type="button">Веб-сайты</button></li>
+                <li class="portfolio-hero-item"><button class="btn button-portfolio" type="button">Приложения</button>
                 </li>
-                <li class="portfolio-hero-item"><button class="button-portfolio" type="button">Дизайн</button></li>
-                <li class="portfolio-hero-item"><button class="button-portfolio" type="button">Маркетинг</button></li>
+                <li class="portfolio-hero-item"><button class="btn button-portfolio" type="button">Дизайн</button></li>
+                <li class="portfolio-hero-item"><button class="btn button-portfolio" type="button">Маркетинг</button></li>
 
             </ul>
+            </div>
 
 
-
+            <div class="container projects-container">
             <ul  class="portfolio-hero-list list">
                 <li class="portfolio-hero-item">
                     <img src="./images/techno.jpg" alt="Технокряк" width="370" />
@@ -120,6 +125,7 @@
 
 
             </ul>
+            </div>
         </section>
 
 
@@ -127,6 +133,7 @@
 
     <!--Подвал-->
     <footer class="portfolio-footer">
+        <div class="container">
         <a   class="portfolio-footer-link link" href="./index.html" >Web<span class="portfolio-footer-studio">Studio</span></a>
         <address>
             <ul class="portfolio-footer-list list">
@@ -142,8 +149,8 @@
                     </li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 
 </html>
-
